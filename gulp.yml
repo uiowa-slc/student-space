@@ -5,7 +5,7 @@
 #Autoloads stuff in themes/[themename]/src/scripts/lib/* no need to place those here
 #Autoloads themes/[themename]/src/scripts/app.js after everything else, no need to add it here
 PATHS:
-  projectName: "PROJECTNAME"
+  projectName: "student-space"
   theme: "bootstrap"
   javascript:
     - './node_modules/jquery/dist/jquery.js'
