@@ -23,8 +23,9 @@ $dark:          $gray-900;
 // Link color
 $link-color: #0056B3;
 
+$primary: $gold;
 // Body
-$body-bg: $highlight;
+$body-bg: $white;
 
 $fa-font-path:         "../fonts";
 
@@ -56,11 +57,14 @@ $container-max-widths: (
 
 // Fonts
 $enable-responsive-font-sizes: true;
-$font-family-base: "proxima-nova",sans-serif;
-$headings-font-family: "proxima-nova-alt-condensed",sans-serif;
+$font-family-base: "Roboto",sans-serif;
+$headings-font-family: "antoniobold",sans-serif;
 $font-size-base: 1.1rem;
 $headings-font-weight: 600;
 
+$border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
 
 // Jumbotron
 $jumbotron-padding: 6rem;

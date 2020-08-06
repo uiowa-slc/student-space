@@ -1,7 +1,7 @@
 {
-    "name": "md/47-things",
+    "name": "md/student-spaces",
     "type": "silverstripe-recipe",
-    "description": "47 Things Website",
+    "description": "Student Spaces Website",
     "require": {
         "php": ">=7.2.0",
         "md/bootstrap-project": "dev-main"

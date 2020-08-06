@@ -1,0 +1,30 @@
+.homepage-hero{
+    border: 30px $gold solid;
+    color: #1a1919;
+
+    &__intro{
+
+
+    }
+
+    &__office{
+
+    }
+
+    &__calendar-icon{
+        width: 100px;
+
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 72px;
+    }
+
+    h3{
+        font-family: $font-family-base;
+    }
+    .h2{
+        font-family: antonioregular;
+    }
+
+}
