@@ -27,4 +27,24 @@
         font-family: antonioregular;
     }
 
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    ul li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    ul li:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-image: url(../../../../vendor/md/bootstrap-project/client/images/brand-icons/arrow.svg);
+        background-size: cover;
+        background-position: center;
+        left: -20px;
+    }
+
 }
