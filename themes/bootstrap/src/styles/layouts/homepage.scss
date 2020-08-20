@@ -1,5 +1,8 @@
 .homepage-hero{
-    border: 30px $gold solid;
+        border: 10px $gold solid;
+    @include media-breakpoint-up(lg) {
+        border-width: 30px;
+    }
     color: #1a1919;
 
     &__intro{
