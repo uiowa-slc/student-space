@@ -1,4 +1,5 @@
-<div class="homepage-hero">
+<% include Header %>
+<div class="homepage-hero" id="content">
     <div class="container-fluid p-0 bg-primary">
         <div class="row no-gutters justify-content-center">
             <div class="col-md-8 text-center py-3">
@@ -11,7 +12,6 @@
         </div>
     </div>
     <div class="container">
-
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="homepage-hero__content pt-5">
