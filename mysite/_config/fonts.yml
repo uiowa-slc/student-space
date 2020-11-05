@@ -3,5 +3,6 @@ Name: mywebfonts
 ---
 gorriecoe\Webfonts\View\Webfonts:
   GoogleFonts:
-    - 'Roboto'
+    - 'Roboto Condensed:regular,bold'
+    - 'Roboto: regular,bold,italic'
   #TypeKitID: ggu1mkb
