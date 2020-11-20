@@ -10,6 +10,11 @@
         border: none;
     }
 
+    th:first-child,
+    td:first-child {
+        width: 40%;
+    }
+
     tr:first-child {
         position: -webkit-sticky;
         top: 0;
