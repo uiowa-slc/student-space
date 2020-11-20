@@ -4,5 +4,5 @@ Name: mywebfonts
 gorriecoe\Webfonts\View\Webfonts:
   GoogleFonts:
     - 'Roboto Condensed:regular,bold'
-    - 'Roboto: regular,bold,italic'
-  #TypeKitID: ggu1mkb
+    - 'Roboto:light,regular,bold,italic'
+    - 'Zilla Slab'
