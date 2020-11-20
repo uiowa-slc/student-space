@@ -1,9 +1,9 @@
-<header class="header bg-primary">
+<header class="header">
     <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
     <div class="container-xl">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-expand bg-primary px-0" aria-label="Site Navigation">
+                <nav class="navbar navbar-expand px-0" aria-label="Site Navigation">
                     <a class="navbar-brand" href="{$BaseUrl}" aria-label="{$SiteConfig.Title}">
                         $SiteConfig.Title
                     </a>
