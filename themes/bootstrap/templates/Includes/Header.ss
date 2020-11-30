@@ -3,7 +3,7 @@
     <div class="container-xl">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-expand px-0" aria-label="Site Navigation">
+                <nav class="navbar navbar-expand px-0 py-0" aria-label="Site Navigation">
                     <a class="navbar-brand" href="{$BaseUrl}" aria-label="{$SiteConfig.Title}">
                         $SiteConfig.Title
                     </a>
