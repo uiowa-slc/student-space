@@ -34,7 +34,7 @@
     "config": {
         "process-timeout": 600
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "repositories": [
         {
