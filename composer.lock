@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0e7a153af3027d525b2bb6d9401f7b2",
+    "content-hash": "e9951472b70c0afa807ad8b8c763668e",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1314,6 +1314,35 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-maintenance-mode/tree/master"
             },
             "time": "2020-03-30T21:44:08+00:00"
+        },
+        {
+            "name": "md/silverstripe-migration-tools",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools.git",
+                "reference": "c5aea93412c7feb3cf7ef1519f0db86750f9b53e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-migration-tools/zipball/c5aea93412c7feb3cf7ef1519f0db86750f9b53e",
+                "reference": "c5aea93412c7feb3cf7ef1519f0db86750f9b53e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "silverstripe/cms": "4.*",
+                "silverstripe/framework": "4.*",
+                "thunderer/shortcode": "^0.7"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "description": "Exports SilverStripe content to WordPress eXtended RSS",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/tree/main",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/issues"
+            },
+            "time": "2021-09-16T15:50:45+00:00"
         },
         {
             "name": "md/uiowa-bar",
@@ -4610,6 +4639,62 @@
             "time": "2021-07-27T16:19:30+00:00"
         },
         {
+            "name": "thunderer/shortcode",
+            "version": "v0.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thunderer/Shortcode.git",
+                "reference": "79a219febd774ba1ee66a2992fee1145b4367561"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thunderer/Shortcode/zipball/79a219febd774ba1ee66a2992fee1145b4367561",
+                "reference": "79a219febd774ba1ee66a2992fee1145b4367561",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.1",
+                "symfony/yaml": ">=2.0"
+            },
+            "suggest": {
+                "ext-dom": "if you want to use XML serializer",
+                "ext-json": "if you want to use JSON serializer",
+                "symfony/yaml": "if you want to use YAML serializer"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thunder\\Shortcode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomasz Kowalczyk",
+                    "email": "tomasz@kowalczyk.cc"
+                }
+            ],
+            "description": "Advanced shortcode (BBCode) parser and engine for PHP",
+            "keywords": [
+                "bbcode",
+                "engine",
+                "library",
+                "parser",
+                "shortcode"
+            ],
+            "support": {
+                "issues": "https://github.com/thunderer/Shortcode/issues",
+                "source": "https://github.com/thunderer/Shortcode/tree/v0.7.4"
+            },
+            "time": "2020-03-08T11:25:13+00:00"
+        },
+        {
             "name": "undefinedoffset/sortablegridfield",
             "version": "2.0.9",
             "source": {
@@ -6378,7 +6463,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "md/bootstrap-project": 20
+        "md/bootstrap-project": 20,
+        "md/silverstripe-migration-tools": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
